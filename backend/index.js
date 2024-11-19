@@ -4,8 +4,8 @@ const authRouter = require('./Routes/AuthRouter.js');
 const ProductRouter=require('./Routes/ProductRouter.js');
 const bodyParser = require('body-parser');
 require('./Models/db');
-const app = require('../trishna_details/backend/app.js'); // Import the app instance
-const { initQueue } = require('../trishna_details/backend/queue.js'); // Import queue initialization function
+const app = require('./trishna_details/backend/app.js'); // Import the app instance
+const { initQueue } = require('./trishna_details/backend/queue.js'); // Import queue initialization function
 const PORT = process.env.PORT || 3000;
 
 
